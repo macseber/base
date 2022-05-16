@@ -1,5 +1,5 @@
 # Train Speed Controller
-
+Conflicting change A
 This is a sample application for the verification laboratory.
 
 ## Getting started
