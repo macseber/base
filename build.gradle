@@ -4,4 +4,8 @@ subprojects {
   repositories {
     jcenter()
   }
+
+  dependencies{
+     'com.google.guava:guava:31.1-jre'
+  }
 }
