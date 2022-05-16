@@ -21,7 +21,7 @@ public class TrainSensorImpl implements TrainSensor {
 	}
 
 	public TrainUser getUser() {
-		return user;a
+		return user;
 	}
 
 	@Override
