@@ -1,5 +1,8 @@
 # Train Speed Controller
 Conflicting change A
+and
+Conflicting edit B
+are now both in
 This is a sample application for the verification laboratory.
 
 ## Getting started
