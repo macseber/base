@@ -8,7 +8,13 @@ This is a sample application for the verification laboratory.
 * The project can be built using [Gradle](https://gradle.org/).
 * [JUnit](http://junit.org/junit4/) is used for tests.
 
-Clone the repository and execute Gradle to build the application:
+Clone the repository 
+
+```
+git clone https://github.com/ftsrg-retelab/base [location you want it at]
+```
+
+And execute Gradle to build the application:
 
 ```
 ./gradlew build
@@ -29,6 +35,13 @@ The application represents a simple train controller system with the following t
 * Sensor: The sensor can detect the change in the speed limit of the track and can signal in such cases to the controller.
 * Controller: The controller is responsible for controlling the reference speed of the train. The reference speed is set by the user, but the speed limit must also be kept.
 * User: The user can manipulate the reference speed of the train using a joystick.
+
+### The rest of the structure
+
+These source files are responsible for gluing together the parts>
+
+* Interfaces: These are the interfaces that the three classes in the section above this one are implementing
+* System: This represents the entire train system
 
 ### Behavior
 
